@@ -59,5 +59,5 @@ function megaFriend(friend) {
 }
 
 // var friend = ["Anas", "Sohel", "Rejaul", "Roy"];
-var bigfriend = megaFriend(["Anas", "Sohel", "Rejaul", "Roy"]);
-console.log("Mega name of fridnds:", bigfriend);
+var megaFriendName = megaFriend(["Anas", "Sohel", "Rejaul", "Roy"]);
+console.log("Mega name of fridnds:", megaFriendName);
