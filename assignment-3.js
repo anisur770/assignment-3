@@ -1,6 +1,6 @@
 
 // github link :  https://github.com/anisur770/assignment-3/blob/main/assignment-3.js
-// namber-1
+// namber-1 : kilometerToMeter
 function kilometerToMeter (kilometer){
 
     var meter = kilometer * 1000;
@@ -8,7 +8,7 @@ function kilometerToMeter (kilometer){
 }
 var permeter = kilometerToMeter(8);
 console.log("Kilometer to Meter calculator Result:", permeter);
-//  number 2
+//  number 2 : budgetCalculator
 function budgetCalculator(ghori, phone, laptop){
     var ghoriTotalCost  =  ghori * 50;
     var phoneTotalCost  =  phone * 100;
@@ -17,8 +17,8 @@ function budgetCalculator(ghori, phone, laptop){
    }
    var totalcost =  budgetCalculator ( 2,3,4);
    console.log ( "Total  Budget (ghori/phone/leptop ) : ", totalcost ,"$");
-
-//    nember -3
+ 
+//    nember -3 :  hotelCost
 function hotelCost(day){
     var totalday = 0;
     if( day <=10){
@@ -44,7 +44,7 @@ function hotelCost(day){
 var count = hotelCost (25);
 var result = count;
 console.log ("Totaly Hotel cost:", result, "$");
-// number -4
+// number -4 : megaFriend
 
 function megaFriend(friend) {
     var max = friend[0];
